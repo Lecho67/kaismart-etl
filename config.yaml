@@ -1,0 +1,22 @@
+autores:
+  - Simón Colonia
+  - Integrante 2
+
+fuentes:
+  mysql:
+    host: 107.180.112.11
+    port: 3306
+    user: admin
+    database: clientes
+    tabla: ventas
+    registros_esperados: 5000
+  excel:
+    archivo: kaismart_eventos_logisticos.xlsx
+    hoja: 0
+    registros_esperados: 50000
+
+rutas:
+  raw: data/raw
+  bronze: data/bronze
+  silver: data/silver
+  gold: data/gold
