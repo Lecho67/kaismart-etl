@@ -2,7 +2,7 @@
 
 Maestría en Ciencia de Datos e IA · Universidad Autónoma de Occidente (UAO)
 
-**Autores:** Simón Colonia · Ingrid Valentina Sanchez Manzano
+
 
 Pipeline ETL que extrae las dos fuentes de información de la empresa, las guarda en una arquitectura Medallion y perfila la calidad de los datos. Todo el desarrollo está en el cuaderno [lab_etl_kaismart.ipynb](lab_etl_kaismart.ipynb).
 
